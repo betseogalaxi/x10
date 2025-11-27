@@ -1,1 +1,108 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+   <title>🟢⚽ BetPuan Giriş 2025 🎁💰 Lisanlı Bahis, Casino ve Yüksek Bonus Fırsatları!</title>
+  <meta name="description" content="Yasalara ve reklam platformu kurallarına uygun, yaş doğrulama içeren örnek yönlendirme sayfası." />
+  <style>
+    :root {font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;}
+    body {margin:0;background:#f6f7fb;display:flex;justify-content:center;align-items:center;min-height:100vh;}
+    .container {max-width:780px;width:100%;background:white;border-radius:12px;box-shadow:0 8px 28px rgba(0,0,0,0.08);padding:32px;}
 
+    header {display:flex;flex-direction:column;align-items:center;text-align:center;margin-bottom:24px;}
+    header .logo img{width:220px;height:auto;margin-bottom:12px;}
+    header h1{font-size:1.8rem;color:#0f172a;margin:0 0 6px;}
+    header p{font-size:0.95rem;color:#475569;margin:0;}
+
+    .cta{display:flex;flex-direction:column;gap:12px;margin-top:24px;}
+    .btn{padding:14px 20px;border-radius:10px;font-weight:700;text-decoration:none;text-align:center;display:block;}
+    .btn-primary{background:#7EAF31;color:white;}
+    .btn-secondary{border:2px solid #e2e8f0;color:#0f172a;background:transparent;}
+
+    section{background:#fbfdff;padding:22px;border-radius:12px;margin-top:22px;}
+    section h2{color:#0f172a;margin-top:0;}
+    section p, section ul li{color:#334155;line-height:1.55;}
+    section ul{padding-left:20px;}
+
+    footer{text-align:center;color:#64748b;font-size:0.85rem;margin-top:18px;}
+
+    .modal{position:fixed;inset:0;display:grid;place-items:center;background:rgba(2,6,23,0.6);}
+    .modal .inner{background:white;padding:24px;border-radius:14px;max-width:420px;width:92%;}
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <div class="logo">
+      <img src="https://raw.githubusercontent.com/betseogalaxi/m/main/logo.png" alt="BetPuan Logo" />
+    </div>
+    <h1>BetPuan Resmi Giriş</h1>
+    <p>Güvenilir, lisanslı ve resmi yönlendirme sayfası.</p>
+  </header>
+
+  <div class="cta">
+    <a id="gotoBtn" href="https://sshortly5.com/9ca3b2b" class="btn btn-primary">BetPuan Lisanslı Giriş</a>
+    <a href="https://sshortly5.com/9ca3b2b" class="btn btn-secondary">Detaylı Bilgi</a>
+  </div>
+
+  <section>
+    <h2>Önemli Bilgiler</h2>
+    <p>Bu sayfa resmi yönlendirme amacıyla hazırlanmıştır. Yönlendirmeyi kullanmadan önce yasal gereksinimleri kontrol edin.</p>
+    <ul>
+      <li>18 yaş sınırı uygulanır.</li>
+      <li>Sorumlu oyun ve kayıp limitlerine dikkat edin.</li>
+      <li>Kişisel veriler hedef site tarafından işlenecektir.</li>
+    </ul>
+    <div style="margin-top:14px;">
+<img src="https://raw.githubusercontent.com/betseogalaxi/m/main/350x50.gif" alt="info gif" style="max-width:100%;height:auto;border-radius:8px;">
+</div>
+  </section>
+
+  <footer>Yasal uyarılar ve yaş doğrulaması içerir. Sorumlu oyun önemlidir.</footer>
+</div>
+
+<div id="ageModal" class="modal">
+  <div class="inner">
+    <h2>Yaş Doğrulaması</h2>
+    <p>18 yaşından büyük olduğunuzu onaylayın.</p>
+    <div style="display:flex;gap:10px;margin-top:14px;">
+      <button id="confirmAge" class="btn btn-primary">Onaylıyorum</button>
+      <button id="denyAge" class="btn btn-secondary">Onaylamıyorum</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const modal = document.getElementById('ageModal');
+  const confirmBtn = document.getElementById('confirmAge');
+  const denyBtn = document.getElementById('denyAge');
+  const gotoBtn = document.getElementById('gotoBtn');
+
+  function showModal(){ modal.style.display='grid'; }
+  function hideModal(){ modal.style.display='none'; }
+  showModal();
+
+  confirmBtn.addEventListener('click', hideModal);
+  denyBtn.addEventListener('click', ()=> alert('Bu içeriğe erişmek için 18+ olmanız gereklidir.'));
+
+  function addUTM(url){
+    try{
+      const u = new URL(url);
+      u.searchParams.set('utm_source','whitepage');
+      u.searchParams.set('utm_medium','referral');
+      return u.toString();
+    }catch(e){ return url;}
+  }
+
+  gotoBtn.addEventListener('click', function(){
+    const href = this.getAttribute('href');
+    if(href !== 'https://sshortly5.com/9ca3b2b' && href.startsWith('http')){
+      this.href = addUTM(href);
+    }
+  });
+</script>
+
+</body>
+</html>
